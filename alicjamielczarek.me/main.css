@@ -1,0 +1,225 @@
+body{
+    font-family:  "Pixel FJVerdana", "Lucida Console", monospace;
+    background-image: white;
+    cursor: url('IMG/N64\ Logo.ico'), auto;
+}
+
+h1{
+    font-family: "pix PixelFJVerdana12pt" ;
+    
+    font-size: 6rem;
+}
+
+h2{
+    font-family: "pix PixelFJVerdana12pt";
+    font-size: 5rem;
+    color: black;
+}
+
+h3{
+    font-family: "pix PixelFJVerdana12pt", "Lucida Console";
+    font-size: 2rem;
+
+}
+
+h4 {
+    font-family: "pix PixelFJVerdana12pt", "Lucida Console";
+    font-size: 1rem;
+}
+
+a {
+    color: blue;
+}
+
+a:hover {
+    color: tomato;}
+
+    
+
+/* NAVBAR */
+.navbar{
+    text-transform: uppercase;
+    text-decoration: overline, underline;
+    font-family: "Lucida Console",Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 550;
+    font-size: 1rem;
+    
+}
+
+a .nav-item {
+    color:black;
+}
+
+.nav-item{
+    color:black ;
+}
+
+.navbar-brand {
+    font-family: 'INVASION2000';
+    font-size: 1.5rem;
+}
+.nav-link {
+    font-family: "Lucida Console";
+    color: blue;
+}
+
+.dropdown-menu {
+    background-color: transparent;
+    text-transform: none;
+}
+
+.dropdown-item:hover {
+    background-color: gray;
+}
+#navbarDropdown {
+    background-color: transparent;
+}
+
+/* HERO */
+.hero {
+    position: relative;
+/* Sizing */
+width: 100vw;
+height: 100vh;
+
+/* Flexbox stuff */
+display: flex;
+justify-content: center;
+align-items: center;
+
+/* Text styles */
+text-align: left;
+
+/* Background styles */
+background-image: url(IMG/urzadznia.gif);
+background-size: cover;
+background-position: center center;
+background-repeat: no-repeat;
+background-attachment: fixed;
+}
+
+.hero-text {
+    position: absolute;
+    top: 70%;
+    left: 10%;
+    transform: translate(-10%, -50%);
+    font-size: 6rem;
+    color:black;
+}
+
+/* Call to action */
+
+
+
+.btn-main {
+    background-color: black;
+    font-size: 0.8rem;
+    
+}
+
+.btn-main:hover {
+    background-color: whitesmoke;
+}
+
+/* sekcje */
+
+
+.mess img{
+    max-width:100%;
+}
+
+
+
+.kontent {
+    /* jak zmienic na mess to jest tylko polowa */
+    background-image: url(IMG/tlo.gif);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+/* proba */
+
+
+.slider-item {
+    display: none;
+}
+
+.active-slider-item {
+    display: block;
+}
+
+
+
+
+
+/* FOOTER */
+footer input, footer textarea {
+    width: 100%;
+    font-size: 1rem;
+    padding: 0.8rem 1rem;
+    margin-bottom: 0.5rem;
+}
+.footer-social-links i{
+    color: black;
+}
+.footer-social-links i:hover {
+    color: navy;
+}
+
+/* PROJEKT1 */
+#water {
+    position: relative;
+/* Sizing */
+width: 100vw;
+height: 200vh;
+
+/* Flexbox stuff */
+display: flex;
+justify-content: center;
+align-items: center;
+
+/* Text styles */
+text-align: left;
+
+/* Background styles */
+background-image: url('https://i.ibb.co/NT1kYS6/3.jpg');
+background-size: cover;
+background-position: center center;
+background-repeat: no-repeat;
+background-attachment: fixed;
+}
+
+.hero-text {
+    position: absolute;
+    top: 70%;
+    left: 10%;
+    transform: translate(-10%, -50%);
+    font-size: 6rem;
+    color:black;
+
+}
+
+div#container {height:500px;width:500px;}
+
+div.a {
+width: 50px;
+height:50px;
+ background-color:red;
+position:fixed;
+
+}
+div.b {
+width: 50px;
+height:50px;
+ background-color:blue;
+position:fixed;
+
+}
+div.c {
+width: 50px;
+height:50px;
+ background-color:green;
+position:fixed;
+
+}
