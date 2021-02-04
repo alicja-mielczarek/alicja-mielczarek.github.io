@@ -26,34 +26,6 @@
 		bleep.src = "sounds/household_2_small_glass_bowls_stack.mp3"
 	</script>
 
-	<script>
-		window.onscroll = function () {
-			handleScroll();
-		}
-		function handleScroll() {
-			if (document.documentElement.scrollTop > 1) {
-				document.getElementById("Header").style.backgroundColor = "lightgray";
-			} else { document.getElementById("Header").style.backgroundColor = "transparent"; }
-		}
-
-
-	</script>
-	<script type="text/javascript" src="js/jquery-3.1.1.min.js"></script>
-	<script type="text/javascript" src="js/jquery.ripples.js"></script>
-	<script type="text/javascript" src="js/custom.js"></script>
-	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
-		integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW"
-		crossorigin="anonymous"></script>
-	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
-		integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW"
-		crossorigin="anonymous"></script>
-
-	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
-	<script src="js/imageMapResizer.min.js"></script>
-	<script>$(document).ready(function (e) { $("map").imageMapResize(); });</script>
-
-
-
 </head>
 
 <body>
@@ -91,7 +63,33 @@
 
 
 		<!--SCRIPTS-->
-
+		<script>
+			window.onscroll = function () {
+				handleScroll();
+			}
+			function handleScroll() {
+				if (document.documentElement.scrollTop > 1) {
+					document.getElementById("Header").style.backgroundColor = "lightgray";
+				} else { document.getElementById("Header").style.backgroundColor = "transparent"; }
+			}
+	
+	
+		</script>
+		<script type="text/javascript" src="js/jquery-3.1.1.min.js"></script>
+		<script type="text/javascript" src="js/jquery.ripples.js"></script>
+		<script type="text/javascript" src="js/custom.js"></script>
+		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
+			integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW"
+			crossorigin="anonymous"></script>
+		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
+			integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW"
+			crossorigin="anonymous"></script>
+	
+		<script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+		<script src="js/imageMapResizer.min.js"></script>
+		<script>$(document).ready(function (e) { $("map").imageMapResize(); });</script>
+	
+	
 </body>
 
 
